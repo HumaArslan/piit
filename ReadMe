@@ -1,0 +1,51 @@
+# Jupyter Notebook/Python
+ -  The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text. 
+ -  Jupyter has support for over 40 different programming languages, and Python is one of them. 
+ -  Python is a requirement (Python 3.3 or greater, or Python 2.7) for installing the Jupyter Notebook itself.
+
+Data Analysis
+     Load data from different sources
+     Save data into different formats
+
+  - Understand the data structures:
+    > Lists:
+      - Ordered, mutable collections of items.
+      - Can store heterogeneous data types.
+      - Created using square brackets [].
+          Example: my_list = [1, "hello", 3.14]
+
+   > Tuples:
+      - Ordered, immutable collections of items.
+      - Can store heterogeneous data types.
+      - Created using parentheses ().
+           Example: my_tuple = (1, "world", 2.71)
+
+   > Sets:
+     - Unordered, mutable collections of unique items.
+     - Used for membership testing and eliminating duplicate entries.
+     - Created using curly braces {} or the set() constructor.
+           Example: my_set = {1, 2, 3, 2} (will result in {1, 2, 3})
+
+    > Dictionaries:
+      - Unordered, mutable collections of key-value pairs.
+      - Keys must be unique and immutable; values can be of any type.
+      - Created using curly braces {} with key-value pairs separated by colons.
+             Example: my_dict = {"name": "Alice", "age": 30}
+Data Cleaning in Python:
+       > Remove Unwanted Observations: Eliminate duplicates, irrelevant entries or redundant data that add noise.
+       > Fix Structural Errors: Standardize data formats and variable types for consistency.
+       > Manage Outliers: Detect and handle extreme values that can skew results, either by removal or transformation.
+       > Handle Missing Data: Address gaps using imputation, deletion or advanced techniques to maintain accuracy and integrity.
+
+- sort
+- filter - conditions; search for string
+- slicing - select rows, cols on conditions
+- merge data - row, col
+- join 
+- visualise- bar, pie, presentation, storytelling
+- outliers 
+- groupby summaries, pivot
+- rotate data - long, wide
+- statistics - mean, median, mode, std, skewness, kurtosis, correlation, covariance
+- data distribution - normal,
+- sampling
